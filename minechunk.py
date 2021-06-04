@@ -21,3 +21,8 @@ version = "Private testing"
 async def on_ready():
     print('Minechunk has been started...')
     await client.change_presence(activity=discord.Game(version))
+
+
+# // Bot Token \\ (Not a command)
+
+client.run('(token here)')
